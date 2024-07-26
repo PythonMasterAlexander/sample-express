@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-const routeHello = () => "Hello World!";
+const routeHello = () => "Alexander Vestbo Hardeland";
 const routeAPINames = async () => {
 	const url = 'https://www.usemodernfullstack.dev/api/v1/users';
 	let data;
@@ -11,8 +11,9 @@ const routeAPINames = async () => {
 	} catch (error) {
 		return error;
 	}
-	const names = data.map((item) => `id: ${item.id}, name: ${item.name}`).join('<br>');
-
+	const names = data
+		.map((item) => `id: ${item.id}, name: ${item.name}`)
+		.join('<br>');
 	return names;
 };
 export { routeHello, routeAPINames };
