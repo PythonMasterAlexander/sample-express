@@ -1,0 +1,13 @@
+{
+  "name": "sample-express",
+  "version": "1.0.0",
+  "description": "A training project for me on full stack development",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Alexander Vestbo Hardeland",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
