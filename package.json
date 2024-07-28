@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "A training project for me on full stack development",
   "main": "index.js",
-  "scripts": {},
   "keywords": [],
   "author": "Alexander Vestbo Hardeland",
   "license": "ISC",
   "type": "module",
+  "scripts": {
+    "check-format": "prettier --check .",
+    "format": "prettier --write *.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "node-fetch": "^3.3.2"

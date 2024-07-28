@@ -2,8 +2,8 @@
 	Create a object
 */
 let object = {
-	fruit: "apple",
-	color: "green"
+  fruit: 'apple',
+  color: 'green',
 };
 
 /*
@@ -16,5 +16,5 @@ let object = {
 let { fruit, color } = { ...object };
 console.log(`Fruit: ${fruit}, Color: ${color}`);
 
-color = "red";
+color = 'red';
 console.log(`object.color: ${object.color}, color: ${color}`);

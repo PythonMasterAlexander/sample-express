@@ -1,0 +1,8 @@
+# Prettier ignore files
+
+# Directories #
+**/node_modules
+
+# Files #
+**/*.yaml
+**/*.json
